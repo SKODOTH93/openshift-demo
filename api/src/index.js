@@ -4,7 +4,6 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import config from '../config/index.json';
 import axios from 'axios';
-import 'regenerator-runtime/runtime';
 import { SERVER_HEALTHY } from './constants/strings.js';
 
 dotenv.config();
